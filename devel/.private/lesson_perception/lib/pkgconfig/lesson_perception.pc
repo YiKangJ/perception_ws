@@ -1,0 +1,8 @@
+prefix=/home/jyk/perception_ws/devel/.private/lesson_perception
+
+Name: lesson_perception
+Description: Description of lesson_perception
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jyk/perception_ws/devel/.private/lesson_perception/lib 
+Requires: 

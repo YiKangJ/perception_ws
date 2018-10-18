@@ -1,0 +1,20 @@
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:132:19:[m[K [01;31m[Kerror: [m[K'[01m[KPoitnXYZ[m[K' is not a member of '[01m[Kpcl[m[K'
+   pcl::PointCloud<pcl::PoitnXYZ>::Ptr cloud_plane( new pcl::PointCloud<pcl::PointXYZ>());
+[01;32m[K                   ^[m[K
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:132:19:[m[K [01;31m[Kerror: [m[K'[01m[KPoitnXYZ[m[K' is not a member of '[01m[Kpcl[m[K'
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:132:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   pcl::PointCloud<pcl::PoitnXYZ>::Ptr cloud_plane( new pcl::PointCloud<pcl::PointXYZ>());
+[01;32m[K                                ^[m[K
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:132:39:[m[K [01;31m[Kerror: [m[Kexpected initializer before '[01m[Kcloud_plane[m[K'
+   pcl::PointCloud<pcl::PoitnXYZ>::Ptr cloud_plane( new pcl::PointCloud<pcl::PointXYZ>());
+[01;32m[K                                       ^[m[K
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:139:21:[m[K [01;31m[Kerror: [m[K'[01m[KSAC_RANSACA[m[K' is not a member of '[01m[Kpcl[m[K'
+   seg.setMethodType(pcl::SAC_RANSACA);
+[01;32m[K                     ^[m[K
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:158:19:[m[K [01;31m[Kerror: [m[K'[01m[Kcloud_plane[m[K' was not declared in this scope
+   extract.filter(*cloud_plane);
+[01;32m[K                   ^[m[K
+make[2]: *** [CMakeFiles/perception_node.dir/src/perception_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/perception_node.dir/all] Error 2
+make: *** [all] Error 2

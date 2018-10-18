@@ -1,0 +1,7 @@
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:167:17:[m[K [01;31m[Kerror: [m[Kno match for '[01m[Koperator*[m[K' (operand type is '[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K')
+   pcl::toROSMsg(*zf_cloud, *pc2_cloud);
+[01;32m[K                 ^[m[K
+make[2]: *** [CMakeFiles/perception_node.dir/src/perception_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/perception_node.dir/all] Error 2
+make: *** [all] Error 2

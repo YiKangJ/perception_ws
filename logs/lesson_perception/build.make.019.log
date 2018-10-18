@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target perception_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/perception_node.dir/src/perception_node.cpp.o[0m
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:228:7:[m[K [01;31m[Kerror: [m[K'[01m[Kclass pcl::StatisticalOutlierRemoval<pcl::PointXYZ>[m[K' has no member named '[01m[KsetMeank[m[K'
+   sor.setMeank(50);
+[01;32m[K       ^[m[K
+CMakeFiles/perception_node.dir/build.make:62: recipe for target 'CMakeFiles/perception_node.dir/src/perception_node.cpp.o' failed
+make[2]: *** [CMakeFiles/perception_node.dir/src/perception_node.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/perception_node.dir/all' failed
+make[1]: *** [CMakeFiles/perception_node.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

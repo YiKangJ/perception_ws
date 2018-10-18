@@ -1,0 +1,7 @@
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/jyk/perception_ws/src/lesson_perception/src/perception_node.cpp:200:51:[m[K [01;31m[Kerror: [m[K'[01m[Ksensor[m[K' does not name a type
+     sensor_msgs::PointCloud2::Ptr tempROSMsg( new sensor::msgs::PointCloud2 );
+[01;32m[K                                                   ^[m[K
+make[2]: *** [CMakeFiles/perception_node.dir/src/perception_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/perception_node.dir/all] Error 2
+make: *** [all] Error 2
